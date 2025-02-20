@@ -57,7 +57,7 @@ main{
 
 .hero {
     background-image: url('./Group\ 10.jpg');
-    height: 67vh;
+    height: 87vh;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -144,6 +144,8 @@ main{
     line-height: 48px;
     font-weight: 700;
     font-family: sans-serif;
+    text-transform: uppercase;
+
 }
 .section-3-second-div p{
     font-size: 20px;
@@ -151,6 +153,7 @@ main{
     line-height: 30px;
     font-weight: 400;
     padding: 25px 0px;
+    color: #6A6A6A;
 }
 .section-3-second-div button{
     font-weight: 400;
@@ -237,7 +240,48 @@ main{
     background: #444;
 }
 
-
+.section-4{
+    background-image: url('./top-view-gavel-wooden-office-desk-background-equility\ 1.png');
+    height: 50vh;
+    width: 100%;
+    background-color: #303C54;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-4 h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+.section-4 p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #F4F4F4;
+    padding-top: 25px;
+}
+hr{
+    width: 320px;
+    margin: 0px auto;
+   
+}
+.section-4-div{
+    width: 887px;
+    margin: auto;
+    display: flex
+;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
 @media only screen and (max-width: 1300px) {
     .nav {
         padding-left: 40px;
@@ -313,6 +357,9 @@ main{
     .card{
         width: 100%;
         height: 100%;
+    }
+    .section-4-div{
+        width: 90%;
     }
   
 }
@@ -406,11 +453,24 @@ main{
         font-size: 18px;
         line-height: 28px;
     }
+    .section-4{
+        min-height: fit-content;
+    }
+    .section-4 h2{
+        font-size: 36px;
+        padding-bottom: 12px;
+    }
+    .section-4 p{
+        font-size: 18px;
+    }
     
 
 }
 
 @media only screen and (max-width: 480px) {
+    .hero{
+        height: 67vh;
+    }
     .hero-fist-div{
         top: 17%;
         padding-left: 0px;
@@ -460,5 +520,17 @@ line-height: 33px;
         width: 196px;
         height: 48px;
         font-size: 16px;
+    }
+    .section-4 h2{
+        font-size: 27px;
+        padding-bottom: 8px;
+    }
+    .section-4 p{
+        line-height: 28px;
+        font-size: 17px;
+        padding-top: 18px;
+    }
+    hr{
+        width: 200px;
     }
 }
