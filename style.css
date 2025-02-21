@@ -466,7 +466,8 @@ hr{
     .testimonial-card {
         padding: 25px;
         min-width: 10px;
-        width: 241px;
+        width: 255px;
+        height: fit-content;
     }
 
     .testimonial-card img {
