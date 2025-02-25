@@ -299,7 +299,9 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    max-width: 1300px;
+    margin: 116px auto;
+    /* margin-bottom: 50px; */
 }
 .learn-header{
     margin-bottom: 0px !important;
@@ -311,7 +313,7 @@ hr{
     opacity: 24%;
 }
 .section-header h2 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 46px;
     font-family: math;
@@ -322,8 +324,8 @@ hr{
     background-color: black;
     color: white;
     border: none;
-    padding: 14px 20px;
     border-radius: 20px;
+    padding: 19px 50px;
     font-size: 14px;
     cursor: pointer;
     transition: background 0.3s ease;
@@ -705,8 +707,13 @@ hr{
 .article-text a{
     color: #2C374E;
     font-weight: 400;
+    display: flex
+;
     font-size: 16px;
     text-decoration: none;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
 }
 @media only screen and (max-width: 1300px) {
     .nav {
@@ -1084,6 +1091,13 @@ line-height: 33px;
         width: 100%;
         height: 280px;
     }
+    .main-article-content{
+        width: 86%;
+        margin: auto;
+    }
+    .main-article-content img{
+        height: 340px;
+    }
     .main-upper{
         font-size: 18px;
     }
@@ -1095,7 +1109,7 @@ line-height: 33px;
         gap: 13px;
     }
     .sidebar-content{
-        gap: 250px;
+        gap: 300px;
         align-items: center;
     }
     .article-card img:hover{
@@ -1104,7 +1118,21 @@ line-height: 33px;
     .article-text a{
         text-decoration: none;
         border: 1px solid;
-        padding: 5px;
+        padding: 7px;
         border-radius: 5px;
+        font-weight: bold;
+        font-family: monospace;
+        font-size: 17px;
+    }
+    .layout-container{
+        gap: 175px;
+    }
+    .article-text a{
+        width: fit-content;
+    gap: 15px;
+    font-family: math;
+    }
+    .section-header{
+        margin: 70px auto;
     }
 }
