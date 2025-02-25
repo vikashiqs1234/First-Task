@@ -1077,6 +1077,7 @@ line-height: 33px;
     }
     .article-card p{
         font-size: 14px;
+        margin-bottom: 12px;
         line-height: 35px;
     }
     .article-card img {
@@ -1094,8 +1095,16 @@ line-height: 33px;
         gap: 13px;
     }
     .sidebar-content{
-        gap: 220px;
+        gap: 250px;
         align-items: center;
     }
-    
+    .article-card img:hover{
+        transform: scale(1);
+    }
+    .article-text a{
+        text-decoration: none;
+        border: 1px solid;
+        padding: 5px;
+        border-radius: 5px;
+    }
 }
